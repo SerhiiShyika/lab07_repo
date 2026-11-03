@@ -1,12 +1,21 @@
 #include "pch.h"
 #include "CppUnitTest.h"
 
-#define UNIT_TEST
+#define main lab_7_1_iter_main
+#define Create IterativeCreate
+#define Print IterativePrint
+#define Copy IterativeCopy
+#define MatchesCriteria IterativeMatchesCriteria
+#define Calc IterativeCalc
+#define NeedSwap IterativeNeedSwap
+#define Change IterativeChange
+#define Sort IterativeSort
 #include "..\Lab-07.1 it\Lab-07.1 it.cpp"
+#undef main
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace UnitTestslab_7
+namespace UnitTestslab_7_1_iter
 {
 	TEST_CLASS(UnitTestslab_7_1_iter)
 	{

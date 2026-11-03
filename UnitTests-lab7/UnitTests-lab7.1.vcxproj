@@ -175,7 +175,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="UnitTests-lab7.1-rec.cpp" />
     <ClCompile Include="UnitTests-lab7.1-iter.cpp" />
+    <ClCompile Include="UnitTests-lab7.2-iter.cpp" />
+    <ClCompile Include="UnitTests-lab7.2-rec.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -183,6 +186,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Lab-07.1 it\Lab-07.1 it.vcxproj">
       <Project>{ee5dfd17-ede6-43e6-9f2e-cd4ea0159844}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Lab-07.1 rec\Lab-07.1 rec.vcxproj">
+      <Project>{2e9c724f-9e45-488f-ba3b-c4d767b8bb13}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
