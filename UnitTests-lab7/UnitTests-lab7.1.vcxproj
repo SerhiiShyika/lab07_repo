@@ -178,7 +178,6 @@
     <ClCompile Include="UnitTests-lab7.1-rec.cpp" />
     <ClCompile Include="UnitTests-lab7.1-iter.cpp" />
     <ClCompile Include="UnitTests-lab7.2-iter.cpp" />
-    <ClCompile Include="UnitTests-lab7.2-rec.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
