@@ -51,8 +51,8 @@ void Copy(const int source[][COLS],
 bool MatchesCriteria(const int value,
     const int i, const int j)
 {
-    return value % 2 == 0 &&
-        !(i % 3 == 0 && j % 3 == 0);
+    return !(value % 2 != 0 ||
+        (i % 3 == 0 && j % 3 == 0));
 }
 
 // Підрахунок і заміна елементів нулями
